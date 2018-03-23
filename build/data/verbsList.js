@@ -839,14 +839,8 @@ const verbsList = [{
     featured: false,
     level: "beginner"
   }
-
-
-
-
-
-
 ]
 
-console.log(verbsList.length )
+
 
 export default verbsList;

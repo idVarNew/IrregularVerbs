@@ -1111,7 +1111,6 @@ const verbsDetails = {
     "choose",
     "come",
     "cost",
-
     "cut",
     "dig",
     "do",
@@ -1122,7 +1121,6 @@ const verbsDetails = {
     "dwell",
     "eat",
     "feed",
-
     "feel",
     "flee",
     "fling",
@@ -1133,7 +1131,6 @@ const verbsDetails = {
     "forgive",
     "forsake",
     "freeze",
-
     "get",
     "give",
     "go",
@@ -1154,7 +1151,6 @@ const verbsDetails = {
     "lend",
     "let",
     "lie",
-
     "light",
     "lose",
     "make",
@@ -1165,7 +1161,6 @@ const verbsDetails = {
     "must",
     "pay",
     "put",
-
     "repay",
     "read",
     "ride",
@@ -1176,7 +1171,6 @@ const verbsDetails = {
     "see",
     "seek",
     "send",
-
     "set",
     "sew",
     "shake",
@@ -1187,7 +1181,6 @@ const verbsDetails = {
     "shrink",
     "shut",
     "sing",
-
     "sit",
     "sleep",
     "smell",
@@ -1198,7 +1191,6 @@ const verbsDetails = {
     "stand",
     "steal",
     "stick",
-
     "strike",
     "swim",
     "swing",
@@ -1209,7 +1201,6 @@ const verbsDetails = {
     "think",
     "throw",
     "understand",
-
     "wake",
     "wear",
     "win",
@@ -1217,5 +1208,5 @@ const verbsDetails = {
   ]
 }
 
-console.log( verbsDetails.allIds.length)
+
 export default verbsDetails;
