@@ -1,0 +1,35 @@
+@import '/pages/pages';
+.app {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: $colorb2;
+    min-height: 100vh;
+    @include media(minS) {
+        margin-top: 25px;
+        box-shadow: 10px 13px 0px 1px #f1ebeb;
+        min-height: auto;
+    }
+    &__header {
+        background-color: $colorc1;
+        color: $colorb2;
+    }
+    &__title {
+        @include formatText(bold, uppercase, 0, $font8);
+        @include media(minXS) {
+            font-size: 3.0rem;
+            letter-spacing: 1.5px;
+        }
+        text-align: center;
+        padding: 25px;
+    }
+    &__main {
+        padding: 25px 10px;
+        @include media(minXS) {
+            padding: 25px;
+        }
+        @include media(minS) {
+            padding: 55px 25px;
+        }
+    }
+}

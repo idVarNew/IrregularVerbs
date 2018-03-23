@@ -1,0 +1,26 @@
+.list {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        font-size: 1.55rem;
+        @include media(minXS) {
+            font-size:$font7;
+        }
+        @include media(minS) {
+            border-bottom: 1px dotted #eaeaea;
+        }
+    }
+    .verb {
+        width: 25%;
+        &__version {
+            display: block;
+        }
+        &__passed {
+            font-size: 2.5rem;
+
+        }
+    }
+}

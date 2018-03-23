@@ -1,0 +1,49 @@
+.levels {
+    &__list {
+        text-align: center
+    }
+}
+
+.level {
+    color: $colorb2;
+    @include formatText(bold, uppercase, 0, $font7);
+    display: inline-block;
+    width: 90%;
+    @include media(minXS) {
+        font-size: $font5;
+    }
+    @include media(minS) {
+        width: 70%;
+    }
+    background-color: $colorc2;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;   
+    border-radius: 50px;
+    border-bottom: 3px solid $colorn1;
+    &:hover {
+        background-color: $colorn1;
+        border-bottom: 3px solid $colorb2;
+    }
+    &__name {
+        font-size: $font9;
+        letter-spacing: 1px;
+    }
+    &__title {
+        text-align: center
+    }
+    &__result {
+        font-size: $font1;;
+        padding: 5px;
+    }
+    &__current-result,
+    &__verbs {
+        color: $colorb1;
+        font-size: $font5;
+    }
+    &__result-description {
+        font-weight: bold;
+        padding-right: 10px;
+        letter-spacing: 1px;
+    }
+}

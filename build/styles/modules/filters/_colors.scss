@@ -1,0 +1,23 @@
+.color-filter {
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    &__link {
+        font-size: $font0;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1%;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15px;
+    }
+}

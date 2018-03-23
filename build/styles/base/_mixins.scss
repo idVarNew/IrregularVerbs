@@ -1,0 +1,39 @@
+@mixin media($media) {
+    @if $media==minXXS {
+        @media only screen and (min-width: $break-300) {
+            @content;
+        }
+    }
+    @if $media==minXS {
+        @media only screen and (min-width: $break-400) {
+            @content;
+        }
+    }
+    @if $media==minS {
+        @media only screen and (min-width: $break-590) {
+            @content;
+        }
+    }
+    @else if $media==minM {
+        @media only screen and (min-width: $break-800) {
+            @content;
+        }
+    }
+    @else if $media==minL {
+        @media only screen and (min-width: $break-1200) {
+            @content;
+        }
+    }
+    @else if $media==minXL {
+        @media only screen and (min-width: $break-1580) {
+            @content;
+        }
+    }
+}
+
+@mixin formatText($fontWeight, $textTrans, $letterSpac, $fontSize ) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    text-transform: $textTrans;
+    letter-spacing: $letterSpac + px;
+}

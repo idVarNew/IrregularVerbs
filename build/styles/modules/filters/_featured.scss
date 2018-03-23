@@ -1,0 +1,21 @@
+.featured-filter {
+    padding: 10px 0;
+    &__text {
+        padding-right: 10px;
+    }
+    &__link {
+        @include formatText(normal, uppercase, 0, $font3);
+        padding-right: 10px;
+        border: 1px solid #ddd;
+        padding: 5px 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+        @include media(minXS) {
+            font-size: $font2;
+        }
+        @include media(minS) {
+            padding: 5px 10px;
+        }
+    }
+}

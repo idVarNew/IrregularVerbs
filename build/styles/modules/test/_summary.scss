@@ -1,0 +1,12 @@
+.test-summary {
+    border: 1px solid $colorc2;
+    padding: 25px;
+    margin-top: 45px;
+    &__title {
+        font-size: $font9;
+        padding-bottom: 15px;
+    }
+    &__results {
+        margin-bottom: 25px;
+    }
+}
