@@ -1,5 +1,10 @@
 {
   "name": "verbs",
+  "jest": {
+    "testEnvironment": "node",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js",
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "Learn irregular verbs",
   "main": "index.js",
@@ -9,7 +14,7 @@
     "ie > 9"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "ws": "webpack-dev-server  --watch ",
     "build": "webpack -p --watch"
   },
